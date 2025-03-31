@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -7,5 +9,151 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background: black url('../imagens/fundo0.jpg') center center no-repeat;
+    background-size: cover;
 }
 
+header > nav{
+    max-width: 900px;
+    background: rgb(2, 35, 95);
+    margin: auto;
+    padding: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+header > nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 8px;
+}
+
+header > nav > a:hover {
+    background-color: rgb(2, 2, 61);
+}
+
+section {
+    background-color: rgb(2, 35, 95);
+    max-width: 920px;
+    margin: auto;
+    margin-top: 5px;
+    color: whitesmoke;
+}
+
+article.introducao { 
+    margin: 5px 5px 5px 5px;
+    padding: 15px 25px 25px 25px;
+    text-align: justify;
+}
+
+article.introducao > img{
+    width: 100%;
+}
+
+article.introducao > h1{
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-variant: small-caps;
+    color: rgb(110, 241, 250);
+    text-align: center;
+}
+
+div.texto {
+    background-color: white;
+    color: black;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    line-height: 25px;
+}
+
+table {
+    position: relative;
+    border-collapse: collapse;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: rgb(90, 88, 88);
+    padding: 3px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: white;
+    color: black;
+}
+
+tbody > tr:nth-child(even) {
+    background-color: grey;
+    color: white;
+}
+
+article.idiomas {
+    margin: 5px 5px 5px 5px;
+    padding: 15px 25px 25px 25px;
+}
+
+h2 {
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    color: rgb(80, 177, 184);
+    text-align: center;
+}
+
+article.idiomas a {
+    display: block;
+    min-width: 100px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.idiomas a#spa {
+    background-color: orange;
+}
+
+.idiomas a#ger {
+    background-color: black;
+}
+
+.idiomas a#jap {
+    background-color: red;
+}
+
+article#cursos {
+    margin: 5px 5px 5px 5px;
+    padding: 15px 25px 25px 25px;
+}
+
+div#video {
+    background-color: blue;
+    margin: 10px -10px 10px -10px;
+    padding: 15px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div#video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}

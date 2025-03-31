@@ -10,21 +10,97 @@
 <body>
     <header>
         <nav>
-            <a href="#">Menu</a>
-            <a href="#">Idiomas</a>
-            <a href="#">Cursos</a>
-            <a href="#">Dúvidas</a>
+            <a href="3introducao">Menu</a>
+            <a href="#idiomas">Idiomas</a>
+            <a href="#cursos">Cursos</a>
+            <a href="#">Contate-nos</a>
         </nav>
     </header>
 
     <main>
         <section id="introducao">
-            <picture>
-                <source media="(max-width: 850px)" srcset="imagens/fundo01p.png" type="image/png">
-                <source media="(max-width: 1200px)" srcset="imagens/fundo01m.png" type="image/png">
-                <img src="imagens/fundo01.png" alt="">
-            </picture>
+            <article class="introducao">
+                <img src="imagens/fundo1.png" alt="Imagem introdução">
+                <h1>Estudo de Idiomas</h1>
+                <div class="texto">
+                    <p>O conhecimento de idiomas é algo que se tornou cada vez mais necessário com o passar do tempo, e atualmente é algo essencial, e praticamente obrigatório para poder ter vantagem em sua carreira, para ter acesso à mais conteúdos, etc.</p>
+                    <p>Veja na lista abaixo em quais áreas alguns idiomas são mais requisitados:</p>
+                    <table>
+                        <thead>
+                            <tr style="background-color: rgb(90, 88, 88); color: white;">
+                                <th scope="col">Idioma</th>
+                                <th scope="col">Importância no mercado de trabalho</th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody>
+                            <tr>
+                                <th scope="row">Inglês</th>
+                                <td>Altamente requisitado em diversar áreas</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Espanhol</th>
+                                <td>Importante devido à proximidade geográfica e cultural com países lusófonos</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Francês</th>
+                                <td>Relevante em setores como comércio internacional e turismo</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Mandarim</th>
+                                <td>Cada vez mais importante devido ao crescimento econômico da China</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Alemão</th>
+                                <td>Importante em áreas como engenharia, tecnologia e economia</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Árabe</th>
+                                <td>Relevante em setores como comércio internacional e petróleo</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Japonês</th>
+                                <td>Importante em setores como tecnologia e indústria</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p>Podemos ver então, que saber outros idiomas é de grande ajuda em diversas áreas no mercado, e também em situações cotidianas.</p>
+                    <p>E é com este intuito que desenvolvi esse site, pretendo passar os meus conhecimentos em alguns idiomas, não apenas para o seu aprendizado, mas para o meu também, e também disponibilizar os cursos que utilizei para estudar os idiomas</p>
+                </div>
+            </article>
         </section>
+
+        <section id="idiomas">
+            <article class="idiomas">
+                <h2>Idiomas</h2>
+            <div class="texto">
+                <a id="usa" href="#">&#x1F1FA;&#x1F1F8;  Inglês</a>
+                <a id="spa" href="#">&#x1F1EA;&#x1F1E6;  Espanhol</a>
+                <a id="ger" href="#">&#x1F1E9;&#x1F1EA;  Alemão</a>
+                <a id="jap" href="#">&#x1F1EF;&#x1F1F5;  Japão</a>
+            </div>
+            </article>
+        </section>
+
+        <section id="cursos">
+            <article id="cursos">
+                <h2>Cursos</h2>
+                <div class="texto">
+                    <p>Olá! Somos da comunidade <strong><em>Sapere Aude</em></strong>, uma comunidade que busca espalhar o conhecimento, não apenas em idiomas, mas em tudo em que se pode dar algum valor à nossa existência(falei bonito kk); ainda estamos nos estruturando, mas garanto que logo em breve estaremos com uma comunidade incrível!</p>
+                    <p>Agradeço a todos a cooperação, e entre já no servidor da <a href="#">Sapere Aude</a></p>
+                    <p>Video exemplar, ainda estamos desenvolvendo-o</p>
+                    <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/Y4goaZhNt4k?si=Ap_NCHmCer5RRj6X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                </div>
+            </article>
+        </section>
+
     </main>
 </body>
 </html>
