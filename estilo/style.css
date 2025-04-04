@@ -9,7 +9,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: black url('../imagens/fundo0.jpg') center center no-repeat;
+    background: rgb(0, 140, 255) url('../imagens/fundo0.jpg') center center no-repeat;
     background-size: cover;
 }
 
@@ -23,6 +23,7 @@ header > nav{
 }
 
 header > nav > a {
+    font-size: 0.9em;
     color: white;
     text-decoration: none;
     margin: 10px;
@@ -156,4 +157,45 @@ div#video > iframe {
     left: 5%;
     width: 90%;
     height: 90%;
+}
+
+#link-server {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#link-server > a {
+    background-color: aqua;
+    color: blue;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+footer {
+    background-color: rgb(2, 35, 95);
+    max-width: 920px;
+    margin: auto;
+    margin-top: 5px;
+    color: whitesmoke;
+    padding-bottom: 5px;
+}
+
+footer > p {
+    padding: 5px;
+    text-align: center;
+}
+
+footer > h1 {
+    font-size: 1em;
+    padding: 5px;
+}
+
+footer > ul {
+    list-style-position: inside;
+    padding: 5px;
+}
+
+footer a {
+    color: whitesmoke
 }
